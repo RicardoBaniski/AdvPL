@@ -1,8 +1,8 @@
-#include 'protheus.ch'
+Ôªø#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} AVETOR2
-//TODO DescriÁ„o auto-gerada.
+//TODO Descri√ß√£o auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined
@@ -11,11 +11,11 @@
 /*/
 user function AVETOR2()
 	/**
-		AADD() - Permite a inserÁ„o de um item em um Array ja existente
-		AINS() - Permite a inserÁ„o de um elemento em qualquer posiÁ„o do Array
-		ACLONE() - Realiza a cÛpia de um Array para outro
-		ADEL() - Permite a exclus„o de um elemento do Array, tornando o ultimo valor NULL
-		ASIZE() - Redefine a estrutura de um Array prÈ-existente, adicionando ou removendo itens
+		AADD() - Permite a inser√ß√£o de um item em um Array ja existente
+		AINS() - Permite a inser√ß√£o de um elemento em qualquer posi√ß√£o do Array
+		ACLONE() - Realiza a c√≥pia de um Array para outro
+		ADEL() - Permite a exclus√£o de um elemento do Array, tornando o ultimo valor NULL
+		ASIZE() - Redefine a estrutura de um Array pr√©-existente, adicionando ou removendo itens
 		LEN() - Retorna a quantidade de elementos de um Array
 	**/
 Local aVetor := {10,20,30}

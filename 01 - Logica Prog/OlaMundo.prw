@@ -1,8 +1,8 @@
-#include 'protheus.ch'
+Ôªø#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} OlaMundo
-//TODO DescriÁ„o auto-gerada.
+//TODO Descri√ß√£o auto-gerada.
 @author RCTI TREINAMNTOS
 @since 2018
 @version undefined
@@ -11,7 +11,7 @@
 /*/
 user function OlaMundo()
 
-MsgAlert("OL¡ MUNDO!!")
+MsgAlert("OL√Å MUNDO!!")
 
 
 return

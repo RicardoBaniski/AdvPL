@@ -1,10 +1,10 @@
-#include 'protheus.ch'
+ï»¿#include 'protheus.ch'
 #include 'parmtype.ch'
 
 Static cStat :=''
 
 /*/{Protheus.doc} ESCOPO1
-//TODO Descrição auto-gerada.
+//TODO DescriÃ§Ã£o auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined
@@ -26,7 +26,7 @@ user function ESCOPO1()
 	TestEscop(nVar0, @nVar1)
 	
 return
-//--------- função static -----
+//--------- funÃ§Ã£o static -----
 
 Static Function TestEscop(nValor1, nValor2)
 

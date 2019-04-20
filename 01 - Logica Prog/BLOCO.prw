@@ -1,8 +1,8 @@
-#include 'protheus.ch'
+Ôªø#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} BLOCO
-//TODO DescriÁ„o auto-gerada.
+//TODO Descri√ß√£o auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined
@@ -11,11 +11,11 @@
 /*/
 user function BLOCO()
 	
-//Local bBloco := {|| Alert("Ol· Mundo!")}
+//Local bBloco := {|| Alert("Ol√° Mundo!")}
 	//Eval(bBloco)
 	
-	// Passagem por par‚metros - Bloco de cÛdigos
+	// Passagem por par√¢metros - Bloco de c√≥digos
 	Local bBloco := {|cMsg| Alert(cMsg)}
-		Eval(bBloco,"Ol· Mundo!")
+		Eval(bBloco,"Ol√° Mundo!")
 	
 return

@@ -1,8 +1,8 @@
-#include 'protheus.ch'
+ï»¿#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} ESTRREP
-//TODO Descrição auto-gerada.
+//TODO DescriÃ§Ã£o auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined

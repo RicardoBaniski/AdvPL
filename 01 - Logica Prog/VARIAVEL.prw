@@ -1,20 +1,20 @@
-#include 'protheus.ch'
+ï»¿#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /**
 	TIPO DE DADOS
 
-NUMÉRICO: 3 / 21.000 / 0.4 / 200000
-LÓGICO: .T. / .F.
+NUMÃ‰RICO: 3 / 21.000 / 0.4 / 200000
+LÃ“GICO: .T. / .F.
 CARACTERE: "D" / 'C'
 DATA: DATE()
 ARRAY: {"VALO1", "VALOR2", "VALOR3"}
-BLOCO DE CÓDIGO: {||VALOR := 1,MsgAlert("Valor é igual a "+cValToChar(VALOR))}
+BLOCO DE CÃ“DIGO: {||VALOR := 1,MsgAlert("Valor Ã© igual a "+cValToChar(VALOR))}
 
 **/
 
 /*/{Protheus.doc} VARIAVEL
-//TODO Descrição auto-gerada.
+//TODO DescriÃ§Ã£o auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined
@@ -27,7 +27,7 @@ user function VARIAVEL()
 	Local cCarac := "String"
 	Local dData := DATE()
 	Local aArray := {"Joao", "Maria","Jose"}
-	Local bBloco := {|| nValor := 2, MsgAlert("O numero é: "+ cValToChar(nValor))}
+	Local bBloco := {|| nValor := 2, MsgAlert("O numero Ã©: "+ cValToChar(nValor))}
 	
 	Alert(nNum)
 	Alert(lLogic)

@@ -1,8 +1,8 @@
-#include 'protheus.ch'
+ï»¿#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} DoCase
-//TODO Descrição auto-gerada.
+//TODO DescriÃ§Ã£o auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined
@@ -16,13 +16,13 @@ user function DoCase()
 	Do Case
 	
 	Case cData == "20/12/2017"
-	Alert("Não é Natal " + cData)
+	Alert("NÃ£o Ã© Natal " + cData)
 	
 	Case cData == "25/12/2017"
-	Alert("É NATAL!!")
+	Alert("Ã‰ NATAL!!")
 	
 	OtherWise
-	MsgAlert("Não sei qual dia é hoje !")
+	MsgAlert("NÃ£o sei qual dia Ã© hoje !")
 	
 	EndCase
 	

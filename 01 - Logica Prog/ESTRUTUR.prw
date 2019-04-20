@@ -1,8 +1,8 @@
-#include 'protheus.ch'
+Ôªø#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} ESTRUTUR
-//TODO DescriÁ„o auto-gerada.
+//TODO Descri√ßƒÉo auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined
@@ -15,13 +15,13 @@ user function ESTRUTUR()
 	Local nNum2 := 100
 	
 	If(nNum1 = nNum2)
-	MsgInfo("A vari·vel nNum1 È igual a nNum2")
+	MsgInfo("A vari√°vel nNum1 √© igual a nNum2")
 	
 	ElseIf (nNum1 > nNum2)
-	MsgAlert("A variavel È maior")
+	MsgAlert("A variavel √© maior")
 	
 	ElseIf (nNum1 != nNum2)
-	Alert ("A vari·vel nNum1 È diferente de nNum2")
+	Alert ("A vari√°vel nNum1 √© diferente de nNum2")
 	
 	EndIf
 

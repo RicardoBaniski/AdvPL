@@ -1,8 +1,8 @@
-#include 'protheus.ch'
+Ôªø#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} OPERADOR
-//TODO DescriÁ„o auto-gerada.
+//TODO Descri√ß√£o auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined
@@ -30,8 +30,8 @@ user function OPERADOR()
 	Alert(nNum1 != nNum2)//DIFERENCA
 	
 	/*
-	//OPERADORES DE ATRIBUI«√O
-	nNum1 := 10 //ATRIBUI«√O SIMPLES
+	//OPERADORES DE ATRIBUI√á√ÉO
+	nNum1 := 10 //ATRIBUI√á√ÉO SIMPLES
 	nNum1 += nNum2 // nNum1 = nNum1 + nNum2
 	nNum2 -= nNum1 // nNum2 = nNum2 - nNum1
 	nNum1 *= nNum2 // nNum1 = nNum1 * nNum2
