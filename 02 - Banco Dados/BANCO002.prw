@@ -1,8 +1,8 @@
-#include 'protheus.ch'
+ï»¿#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} BANCO002
-//TODO Descrição auto-gerada.
+//TODO DescriÃ§Ã£o auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined
@@ -22,7 +22,7 @@ user function BANCO002()
 						FWXfilial('SB1')+ '000002',;
 						'B1_DESC')
 						
-	Alert("Descrição Produto: " +cMsg, "AVISO")
+	Alert("DescriÃ§Ã£o Produto: " +cMsg, "AVISO")
 	
 	RestArea(aArea)
 return

@@ -1,10 +1,10 @@
-#include 'protheus.ch'
+ï»¿#include 'protheus.ch'
 #include 'parmtype.ch'
 #include 'TopConn.ch'
 
 
 /*/{Protheus.doc} BANCO003
-//TODO Descrição auto-gerada.
+//TODO DescriÃ§Ã£o auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined

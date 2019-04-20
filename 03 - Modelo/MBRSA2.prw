@@ -1,8 +1,8 @@
-#include 'protheus.ch'
+Ôªø#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} MBRSA2
-//TODO DescriÁ„o auto-gerada.
+//TODO Descri√ß√£o auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined
@@ -47,52 +47,52 @@ user function MBRSA2()
 	
 return
 /*------------------------------------------
-	FunÁ„o BInclui - Inclus„o
+	Fun√ß√£o BInclui - Inclus√£o
 --------------------------------------------*/
 User Function BInclui(cAlias,nReg,nOpc)
 	Local nOpcao := 0
 	nOpcao := AxInclui(cAlias,nReg,nOpc)
 		If nOpcao == 1
-			MsgInfo("Inclus„o efetuada com sucesso!")
+			MsgInfo("Inclus√£o efetuada com sucesso!")
 		Else
-			MsgAlert("Inclus„o Cancelada!")
+			MsgAlert("Inclus√£o Cancelada!")
 		EndIf	
 Return
 /*---------------------------------------------
-	FunÁ„o BAltera - AlteraÁ„o
+	Fun√ß√£o BAltera - Altera√ß√£o
 -----------------------------------------------*/
 User Function BAltera(cAlias,nReg,nOpc)
 	Local nOpcao := 0
 	nOpcao := AxAltera(cAlias,nReg,nOpc)
 		If nOpcao == 1
-			MsgInfo("AlteraÁ„o efetuada com sucesso!")
+			MsgInfo("Altera√ß√£o efetuada com sucesso!")
 		Else
-			MsgAlert("AlteraÁ„o Cancelada!")
+			MsgAlert("Altera√ß√£o Cancelada!")
 		EndIf	
 Return Nil
 /*-------------------------------------
-	FunÁ„o BDeleta - Exclus„o
+	Fun√ß√£o BDeleta - Exclus√£o
 ---------------------------------------*/
 User Function BDeleta(cAlias,nReg,nOpc)
 	Local nOpcao := 0
 	nOpcao := AxDeleta(cAlias,nReg,nOpc)
 	If nOpcao == 1                                 
-		MsgInfo("Exclus„o cancelada!")           
+		MsgInfo("Exclus√£o cancelada!")           
 	Else
-		MsgAlert("Exclus„o efetuada com sucesso!")
+		MsgAlert("Exclus√£o efetuada com sucesso!")
 	Endif
 Return Nil
 /*---------------------------------
-	FunÁ„o BLegenda - Legenda
+	Fun√ß√£o BLegenda - Legenda
 -----------------------------------*/
 User Function BLegenda()
 	Local aLegenda := {}
 	
-	AADD(aLegenda,{"BR_VERDE" ,"Pessoa FÌsica"})
-	AADD(aLegenda,{"BR_AMARELO" ,"Pessoa JurÌdica" 	})
-	AADD(aLegenda,{"BR_LARANJA" ,"ExportaÁ„o" 		})
+	AADD(aLegenda,{"BR_VERDE" ,"Pessoa F√≠sica"})
+	AADD(aLegenda,{"BR_AMARELO" ,"Pessoa Jur√≠dica" 	})
+	AADD(aLegenda,{"BR_LARANJA" ,"Exporta√ß√£o" 		})
 	AADD(aLegenda,{"BR_MARROM" 	,"Fornecedor Rural" })
-	AADD(aLegenda,{"BR_PRETO" 	,"N„o Classificado" })
+	AADD(aLegenda,{"BR_PRETO" 	,"N√£o Classificado" })
 	
 	BrwLegenda(cCadastro, "Legenda",aLegenda)
 	

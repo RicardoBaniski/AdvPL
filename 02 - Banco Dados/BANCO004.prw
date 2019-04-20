@@ -1,8 +1,8 @@
-#include 'protheus.ch'
+ï»¿#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} BANCO004
-//TODO Descrição auto-gerada.
+//TODO DescriÃ§Ã£o auto-gerada.
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined
@@ -17,18 +17,18 @@ user function BANCO004()
 	Sb1->(DbSetOrder(1))
 	Sb1->(DbGoTop())
 	
-	// Iniciar a transação.
+	// Iniciar a transaÃ§Ã£o.
 	Begin Transaction
 	
-		MsgInfo("A descrição do produto será alterada!", "Atenção")
+		MsgInfo("A descriÃ§Ã£o do produto serÃ¡ alterada!", "AtenÃ§Ã£o")
 		
 	If SB1->(DbSeek(FWxFilial('SB1') + '000002'))
-		RecLock('SB1', .F.) //Trava registro para alteração
+		RecLock('SB1', .F.) //Trava registro para alteraÃ§Ã£o
 	Replace B1_DESC With "MONITOR DELL 42 PL"
 	
 		SB1->(MsUnlock())
 	EndIf
-		MsgAlert("Alteração efetuada!", "Atenção")
+		MsgAlert("AlteraÃ§Ã£o efetuada!", "AtenÃ§Ã£o")
 	//	DisarmTransaction()
 	End Transaction
 	RestArea(aArea)

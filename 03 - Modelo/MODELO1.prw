@@ -1,8 +1,8 @@
-#include 'protheus.ch'
+Ôªø#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} MODELO1
-//TODO PROGRAMA DE ATUALIZA«√O
+//TODO PROGRAMA DE ATUALIZA√á√ÉO
 @author RCTI TREINAMENTOS
 @since 2018
 @version undefined

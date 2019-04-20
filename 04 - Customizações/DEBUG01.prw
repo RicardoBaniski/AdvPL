@@ -1,4 +1,4 @@
-#include 'protheus.ch'
+Ôªø#include 'protheus.ch'
 #include 'parmtype.ch'
 
 /*/{Protheus.doc} DEBUG01
@@ -18,7 +18,7 @@ user function DEBUG01()
 	SB1->(DbSetOrder(1)) //Seleciona o Indice
 	SB1->(DbGoTop())
 
-	While ! SB1->(EoF()) //Enquanto n„o for final do arquivo
+	While ! SB1->(EoF()) //Enquanto nƒÉo for final do arquivo
 		aAdd(aProduto,{	SB1->B1_COD,;
 						SB1->B1_DESC})
 	
@@ -28,7 +28,7 @@ user function DEBUG01()
 	
 	MsgAlert("Quantidade de Produtos encontrada: <b>" + cValToChar(nCount))
 	
-	nCount := 0 //Zerando o valor da var·vel nCount
+	nCount := 0 //Zerando o valor da var√°vel nCount
 	
 	RestArea(aArea)
 	
